@@ -1,0 +1,7 @@
+graph,algorithm,n_vertices,n_edges,mst_total_cost,time_ms,ops
+small-1,Prim,4,5,6.0,12,"{visited_marks=4, heap_push=5, edge_relaxation_attempts=10, heap_pop=3, comparisons=11, mst_edges_added=3}"
+small-1,Kruskal,4,5,6.0,10,"{sort_calls=1, edge_considered=3, comparisons=9, find_calls=14, union_calls=3, unions_done=3, mst_edges_added=3, path_compressions=2}"
+medium-1,Prim,10,15,48.0,0,"{visited_marks=10, heap_push=15, edge_relaxation_attempts=30, heap_pop=12, comparisons=40, mst_edges_added=9, skipped_visited=3}"
+medium-1,Kruskal,10,15,48.0,0,"{sort_calls=1, edge_considered=13, comparisons=31, find_calls=64, union_calls=9, unions_done=9, mst_edges_added=9, path_compressions=20, skipped_cycle=4}"
+large-random-1,Prim,25,54,683.0,0,"{visited_marks=25, heap_push=54, edge_relaxation_attempts=108, heap_pop=48, comparisons=149, mst_edges_added=24, skipped_visited=24}"
+large-random-1,Kruskal,25,54,683.0,0,"{sort_calls=1, edge_considered=47, comparisons=95, find_calls=232, union_calls=24, unions_done=24, mst_edges_added=24, path_compressions=90, skipped_cycle=23}"
